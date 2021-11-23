@@ -1,0 +1,54 @@
+{
+    "Config_name": "Atmega8",
+    "CoreClockFreq": 12,
+    "GIPO": [
+        {
+            "I/O": "Вход",
+            "Num": 1,
+            "Settings": "Подтяжка к питанию"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 2,
+            "Settings": "Подтяжка к земле"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 3,
+            "Settings": "Отсутствие подтяжки"
+        },
+        {
+            "I/O": "Выход",
+            "Num": 4,
+            "Settings": "Низкий потенциал"
+        },
+        {
+            "I/O": "Выход",
+            "Num": 5,
+            "Settings": "Высокий потенциал"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 6,
+            "Settings": "Подтяжка к земле"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 7,
+            "Settings": "Подтяжка к питанию"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 8,
+            "Settings": "Подтяжка к земле"
+        }
+    ],
+    "Interfaces": [
+        "USB",
+        "SPI",
+        "I2C"
+    ],
+    "Model": "Atmega8",
+    "PeripheralClockFreq": 10,
+    "Series": "Mega"
+}

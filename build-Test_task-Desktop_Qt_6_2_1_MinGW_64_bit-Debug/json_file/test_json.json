@@ -1,0 +1,44 @@
+{
+
+    "Config_name": "Test_config",
+    "Series":"Test_Series",
+    "Model":"Test_Model",
+    "CoreClockFreq":10,
+    "PeripheralClockFreq":8,
+    "Interfaces":[
+        "USB",
+        "UART",
+        "SPI",
+        "I2C",
+        "Ethernet",
+        "1-Wire",
+        "Многоразрядная шина"
+    ],
+    "GIPO":[
+        {
+            "Num":1,
+            "I/O":"Вход",
+            "Settings":"Подтяжка к земле"
+        },
+        {
+            "Num":2,
+            "I/O":"Вход",
+            "Settings":"Подтяжка к питанию"
+        },
+        {
+            "Num":3,
+            "I/O":"Вход",
+            "Settings":"Отсутствие подтяжки"
+        },
+        {
+            "Num":4,
+            "I/O":"Выход",
+            "Settings":"Низкий потенциал"
+        },
+        {
+            "Num":5,
+            "I/O":"Выход",
+            "Settings":"Высокий потенциал"
+        }
+    ]
+}

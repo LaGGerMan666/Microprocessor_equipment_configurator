@@ -1,0 +1,45 @@
+{
+    "Config_name": "Final_Test",
+    "CoreClockFreq": 16,
+    "GIPO": [
+        {
+            "I/O": "Вход",
+            "Num": 12,
+            "Settings": "Подтяжка к питанию"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 8,
+            "Settings": "Подтяжка к питанию"
+        },
+        {
+            "I/O": "Вход",
+            "Num": 3,
+            "Settings": "Подтяжка к земле"
+        },
+        {
+            "I/O": "Выход",
+            "Num": 4,
+            "Settings": "Высокий потенциал"
+        },
+        {
+            "I/O": "Выход",
+            "Num": 5,
+            "Settings": "Высокий потенциал"
+        },
+        {
+            "I/O": "Выход",
+            "Num": 16,
+            "Settings": "Высокий потенциал"
+        }
+    ],
+    "Interfaces": [
+        "Ethernet",
+        "I2C",
+        "SPI",
+        "Многоразрядная шина"
+    ],
+    "Model": "Model_Final_Test",
+    "PeripheralClockFreq": 8,
+    "Series": "Series_Final_Test"
+}
